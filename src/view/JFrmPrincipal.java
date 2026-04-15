@@ -74,6 +74,7 @@ public class JFrmPrincipal extends javax.swing.JFrame {
         jMenuItem1.setText("Fornecedores");
         jMnuCadastros.add(jMenuItem1);
 
+        jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/produto.png"))); // NOI18N
         jMenuItem2.setText("Produtos");
         jMnuCadastros.add(jMenuItem2);
