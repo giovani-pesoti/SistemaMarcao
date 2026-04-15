@@ -243,7 +243,7 @@ public class JDlgGpfFormasDePagamento extends javax.swing.JDialog {
                     .addComponent(jBtnConfirmar)
                     .addComponent(jBtnPesquisar)
                     .addComponent(jBtnCancelar))
-                .addContainerGap(17, Short.MAX_VALUE))
+                .addContainerGap(34, Short.MAX_VALUE))
         );
 
         pack();
