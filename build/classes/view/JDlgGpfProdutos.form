@@ -26,7 +26,7 @@
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jTxtApelido" alignment="1" max="32767" attributes="0"/>
+                  <Component id="jTxtDescricao" alignment="1" max="32767" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jTxtCodigo" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
@@ -56,26 +56,26 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jFmtData" min="-2" pref="184" max="-2" attributes="0"/>
-                          <Component id="jLblData" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFmtPrecoCusto" min="-2" pref="184" max="-2" attributes="0"/>
+                          <Component id="jLblPrecoCusto" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLblNivel" min="-2" max="-2" attributes="0"/>
-                          <Component id="jFmtData1" min="-2" pref="159" max="-2" attributes="0"/>
+                          <Component id="jLblPrecoVenda" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFmtPrecoVenda" min="-2" pref="159" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="jLblSenha" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLblQuantidade" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Component id="jTextField1" max="32767" attributes="0"/>
+                          <Component id="jTxtQuantidade" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLblApelido" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLblDescricao" min="-2" max="-2" attributes="0"/>
                           <Component id="jChbAtivo" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -99,25 +99,25 @@
                   <Component id="jTxtNome" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLblApelido" min="-2" max="-2" attributes="0"/>
+              <Component id="jLblDescricao" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="jTxtApelido" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTxtDescricao" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLblData" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLblSenha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLblPrecoCusto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLblQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jFmtData" min="-2" max="-2" attributes="0"/>
+                      <Component id="jFmtPrecoCusto" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Component id="jLblNivel" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLblPrecoVenda" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jFmtData1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFmtPrecoVenda" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTxtQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -152,26 +152,26 @@
     </Component>
     <Component class="javax.swing.JTextField" name="jTxtNome">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLblApelido">
+    <Component class="javax.swing.JLabel" name="jLblDescricao">
       <Properties>
         <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtApelido">
+    <Component class="javax.swing.JTextField" name="jTxtDescricao">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLblData">
+    <Component class="javax.swing.JLabel" name="jLblPrecoCusto">
       <Properties>
         <Property name="text" type="java.lang.String" value="Pre&#xe7;o Custo"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JFormattedTextField" name="jFmtData">
+    <Component class="javax.swing.JFormattedTextField" name="jFmtPrecoCusto">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLblNivel">
+    <Component class="javax.swing.JLabel" name="jLblPrecoVenda">
       <Properties>
         <Property name="text" type="java.lang.String" value="Pre&#xe7;o Venda"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLblSenha">
+    <Component class="javax.swing.JLabel" name="jLblQuantidade">
       <Properties>
         <Property name="text" type="java.lang.String" value="Quantidade"/>
       </Properties>
@@ -247,9 +247,9 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnCancelarActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JFormattedTextField" name="jFmtData1">
+    <Component class="javax.swing.JFormattedTextField" name="jFmtPrecoVenda">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField1">
+    <Component class="javax.swing.JTextField" name="jTxtQuantidade">
     </Component>
   </SubComponents>
 </Form>

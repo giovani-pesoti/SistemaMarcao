@@ -4,6 +4,7 @@
  */
 package view;
 
+import static java.awt.Frame.MAXIMIZED_BOTH;
 import javax.swing.JOptionPane;
 
 /**
@@ -22,8 +23,8 @@ public class JDlgGpfUsuarios extends javax.swing.JDialog {
         setLocationRelativeTo(null);
         desabilitar();
     }
-    
-    public void desabilitar(){
+
+    public void desabilitar() {
         jTxtCodigo.setEnabled(false);
         jTxtNome.setEnabled(false);
         jTxtApelido.setEnabled(false);
@@ -40,8 +41,8 @@ public class JDlgGpfUsuarios extends javax.swing.JDialog {
         jBtnExcluir.setEnabled(true);
         jBtnPesquisar.setEnabled(true);
     }
-    
-    public void habilitar(){
+
+    public void habilitar() {
         jTxtCodigo.setEnabled(true);
         jTxtNome.setEnabled(true);
         jTxtApelido.setEnabled(true);
@@ -58,6 +59,7 @@ public class JDlgGpfUsuarios extends javax.swing.JDialog {
         jBtnExcluir.setEnabled(false);
         jBtnPesquisar.setEnabled(false);
     }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -277,17 +279,17 @@ public class JDlgGpfUsuarios extends javax.swing.JDialog {
     }//GEN-LAST:event_jBtnCancelarActionPerformed
 
     private void jBtnAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnAlterarActionPerformed
-    habilitar();        // TODO add your handling code here:
+        habilitar();        // TODO add your handling code here:
     }//GEN-LAST:event_jBtnAlterarActionPerformed
 
     private void jBtnConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnConfirmarActionPerformed
-    desabilitar();        // TODO add your handling code here:
+        desabilitar();        // TODO add your handling code here:
     }//GEN-LAST:event_jBtnConfirmarActionPerformed
 
     private void jBtnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnExcluirActionPerformed
         // TODO add your handling code here:
         JOptionPane.showConfirmDialog(null, "Confirma exclusão do usuário ?",
-                "Seleciona a opção", JOptionPane.YES_NO_OPTION );
+                "Seleciona a opção", JOptionPane.YES_NO_OPTION);
     }//GEN-LAST:event_jBtnExcluirActionPerformed
 
     private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
@@ -363,4 +365,5 @@ public class JDlgGpfUsuarios extends javax.swing.JDialog {
     private javax.swing.JTextField jTxtCodigo;
     private javax.swing.JTextField jTxtNome;
     // End of variables declaration//GEN-END:variables
+
 }
