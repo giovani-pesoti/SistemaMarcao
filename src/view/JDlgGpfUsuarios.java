@@ -25,39 +25,39 @@ public class JDlgGpfUsuarios extends javax.swing.JDialog {
     }
 
     public void desabilitar() {
-        jTxtCodigo.setEnabled(false);
-        jTxtNome.setEnabled(false);
-        jTxtApelido.setEnabled(false);
-        jFmtData.setEnabled(false);
-        jFmtCpf.setEnabled(false);
-        jFmtData.setEnabled(false);
-        jCboNivel.setEnabled(false);
-        jPwfSenha.setEnabled(false);
-        jChbAtivo.setEnabled(false);
-        jBtnConfirmar.setEnabled(false);
-        jBtnCancelar.setEnabled(false);
-        jBtnIncluir.setEnabled(true);
-        jBtnAlterar.setEnabled(true);
-        jBtnExcluir.setEnabled(true);
-        jBtnPesquisar.setEnabled(true);
+        jTxtGpfCodigo.setEnabled(false);
+        jTxtGpfNome.setEnabled(false);
+        jTxtGpfApelido.setEnabled(false);
+        jFmtGpfData.setEnabled(false);
+        jFmtGpfCpf.setEnabled(false);
+        jFmtGpfData.setEnabled(false);
+        jCboGpfNivel.setEnabled(false);
+        jPwfGpfSenha.setEnabled(false);
+        jChbGpfAtivo.setEnabled(false);
+        jBtnGpfConfirmar.setEnabled(false);
+        jBtnGpfCancelar.setEnabled(false);
+        jBtnGpfIncluir.setEnabled(true);
+        jBtnGpfAlterar.setEnabled(true);
+        jBtnGpfExcluir.setEnabled(true);
+        jBtnGpfPesquisar.setEnabled(true);
     }
 
     public void habilitar() {
-        jTxtCodigo.setEnabled(true);
-        jTxtNome.setEnabled(true);
-        jTxtApelido.setEnabled(true);
-        jFmtData.setEnabled(true);
-        jFmtCpf.setEnabled(true);
-        jFmtData.setEnabled(true);
-        jCboNivel.setEnabled(true);
-        jPwfSenha.setEnabled(true);
-        jChbAtivo.setEnabled(true);
-        jBtnConfirmar.setEnabled(true);
-        jBtnCancelar.setEnabled(true);
-        jBtnIncluir.setEnabled(false);
-        jBtnAlterar.setEnabled(false);
-        jBtnExcluir.setEnabled(false);
-        jBtnPesquisar.setEnabled(false);
+        jTxtGpfCodigo.setEnabled(true);
+        jTxtGpfNome.setEnabled(true);
+        jTxtGpfApelido.setEnabled(true);
+        jFmtGpfData.setEnabled(true);
+        jFmtGpfCpf.setEnabled(true);
+        jFmtGpfData.setEnabled(true);
+        jCboGpfNivel.setEnabled(true);
+        jPwfGpfSenha.setEnabled(true);
+        jChbGpfAtivo.setEnabled(true);
+        jBtnGpfConfirmar.setEnabled(true);
+        jBtnGpfCancelar.setEnabled(true);
+        jBtnGpfIncluir.setEnabled(false);
+        jBtnGpfAlterar.setEnabled(false);
+        jBtnGpfExcluir.setEnabled(false);
+        jBtnGpfPesquisar.setEnabled(false);
     }
 
     /**
@@ -69,95 +69,95 @@ public class JDlgGpfUsuarios extends javax.swing.JDialog {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLblCodigo = new javax.swing.JLabel();
-        jTxtCodigo = new javax.swing.JTextField();
-        jLblNome = new javax.swing.JLabel();
-        jTxtNome = new javax.swing.JTextField();
-        jLblApelido = new javax.swing.JLabel();
-        jTxtApelido = new javax.swing.JTextField();
-        jLblCpf = new javax.swing.JLabel();
-        jFmtCpf = new javax.swing.JFormattedTextField();
-        jLblData = new javax.swing.JLabel();
-        jFmtData = new javax.swing.JFormattedTextField();
-        jLblNivel = new javax.swing.JLabel();
-        jCboNivel = new javax.swing.JComboBox<>();
-        jLblSenha = new javax.swing.JLabel();
-        jPwfSenha = new javax.swing.JPasswordField();
-        jChbAtivo = new javax.swing.JCheckBox();
-        jBtnIncluir = new javax.swing.JButton();
-        jBtnAlterar = new javax.swing.JButton();
-        jBtnExcluir = new javax.swing.JButton();
-        jBtnConfirmar = new javax.swing.JButton();
-        jBtnPesquisar = new javax.swing.JButton();
-        jBtnCancelar = new javax.swing.JButton();
+        jLblGpfCodigo = new javax.swing.JLabel();
+        jTxtGpfCodigo = new javax.swing.JTextField();
+        jLblGpfNome = new javax.swing.JLabel();
+        jTxtGpfNome = new javax.swing.JTextField();
+        jLblGpfApelido = new javax.swing.JLabel();
+        jTxtGpfApelido = new javax.swing.JTextField();
+        jLblGpfCpf = new javax.swing.JLabel();
+        jFmtGpfCpf = new javax.swing.JFormattedTextField();
+        jLblGpfData = new javax.swing.JLabel();
+        jFmtGpfData = new javax.swing.JFormattedTextField();
+        jLblGpfNivel = new javax.swing.JLabel();
+        jCboGpfNivel = new javax.swing.JComboBox<>();
+        jLblGpfSenha = new javax.swing.JLabel();
+        jPwfGpfSenha = new javax.swing.JPasswordField();
+        jChbGpfAtivo = new javax.swing.JCheckBox();
+        jBtnGpfIncluir = new javax.swing.JButton();
+        jBtnGpfAlterar = new javax.swing.JButton();
+        jBtnGpfExcluir = new javax.swing.JButton();
+        jBtnGpfConfirmar = new javax.swing.JButton();
+        jBtnGpfPesquisar = new javax.swing.JButton();
+        jBtnGpfCancelar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        jLblCodigo.setText("Código");
+        jLblGpfCodigo.setText("Código");
 
-        jLblNome.setText("Nome");
+        jLblGpfNome.setText("Nome");
 
-        jLblApelido.setText("Apelido");
+        jLblGpfApelido.setText("Apelido");
 
-        jLblCpf.setText("CPF");
+        jLblGpfCpf.setText("CPF");
 
-        jLblData.setText("Data de Nascimento");
+        jLblGpfData.setText("Data de Nascimento");
 
-        jLblNivel.setText("Nível");
+        jLblGpfNivel.setText("Nível");
 
-        jCboNivel.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jCboGpfNivel.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jLblSenha.setText("Senha");
+        jLblGpfSenha.setText("Senha");
 
-        jPwfSenha.setText("jPasswordField1");
+        jPwfGpfSenha.setText("jPasswordField1");
 
-        jChbAtivo.setText("Ativo");
+        jChbGpfAtivo.setText("Ativo");
 
-        jBtnIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
-        jBtnIncluir.setText("Incluir");
-        jBtnIncluir.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
+        jBtnGpfIncluir.setText("Incluir");
+        jBtnGpfIncluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnIncluirActionPerformed(evt);
+                jBtnGpfIncluirActionPerformed(evt);
             }
         });
 
-        jBtnAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
-        jBtnAlterar.setText("Alterar");
-        jBtnAlterar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
+        jBtnGpfAlterar.setText("Alterar");
+        jBtnGpfAlterar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnAlterarActionPerformed(evt);
+                jBtnGpfAlterarActionPerformed(evt);
             }
         });
 
-        jBtnExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
-        jBtnExcluir.setText("Excluir");
-        jBtnExcluir.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
+        jBtnGpfExcluir.setText("Excluir");
+        jBtnGpfExcluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnExcluirActionPerformed(evt);
+                jBtnGpfExcluirActionPerformed(evt);
             }
         });
 
-        jBtnConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
-        jBtnConfirmar.setText("Confirmar");
-        jBtnConfirmar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
+        jBtnGpfConfirmar.setText("Confirmar");
+        jBtnGpfConfirmar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnConfirmarActionPerformed(evt);
+                jBtnGpfConfirmarActionPerformed(evt);
             }
         });
 
-        jBtnPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
-        jBtnPesquisar.setText("Pesquisar");
-        jBtnPesquisar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
+        jBtnGpfPesquisar.setText("Pesquisar");
+        jBtnGpfPesquisar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnPesquisarActionPerformed(evt);
+                jBtnGpfPesquisarActionPerformed(evt);
             }
         });
 
-        jBtnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
-        jBtnCancelar.setText("Cancelar");
-        jBtnCancelar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
+        jBtnGpfCancelar.setText("Cancelar");
+        jBtnGpfCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnCancelarActionPerformed(evt);
+                jBtnGpfCancelarActionPerformed(evt);
             }
         });
 
@@ -172,53 +172,53 @@ public class JDlgGpfUsuarios extends javax.swing.JDialog {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLblCodigo))
+                                    .addComponent(jTxtGpfCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLblGpfCodigo))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLblNome, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jLblGpfNome, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(0, 0, Short.MAX_VALUE))
-                                    .addComponent(jTxtNome)))
+                                    .addComponent(jTxtGpfNome)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jTxtApelido, javax.swing.GroupLayout.PREFERRED_SIZE, 179, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLblApelido))
+                                    .addComponent(jTxtGpfApelido, javax.swing.GroupLayout.PREFERRED_SIZE, 179, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLblGpfApelido))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLblCpf)
+                                        .addComponent(jLblGpfCpf)
                                         .addGap(0, 0, Short.MAX_VALUE))
-                                    .addComponent(jFmtCpf)))
+                                    .addComponent(jFmtGpfCpf)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jLblData, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jFmtData))
+                                    .addComponent(jLblGpfData, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jFmtGpfData))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLblNivel)
+                                        .addComponent(jLblGpfNivel)
                                         .addGap(0, 0, Short.MAX_VALUE))
-                                    .addComponent(jCboNivel, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                    .addComponent(jCboGpfNivel, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLblSenha)
+                                .addComponent(jLblGpfSenha)
                                 .addGap(0, 0, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jPwfSenha)
+                                .addComponent(jPwfGpfSenha)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jChbAtivo))))
+                                .addComponent(jChbGpfAtivo))))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jBtnIncluir)
+                        .addComponent(jBtnGpfIncluir)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnAlterar)
+                        .addComponent(jBtnGpfAlterar)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnExcluir)
+                        .addComponent(jBtnGpfExcluir)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnConfirmar)
+                        .addComponent(jBtnGpfConfirmar)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnCancelar)
+                        .addComponent(jBtnGpfCancelar)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
-                        .addComponent(jBtnPesquisar)))
+                        .addComponent(jBtnGpfPesquisar)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -226,76 +226,76 @@ public class JDlgGpfUsuarios extends javax.swing.JDialog {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLblCodigo)
-                    .addComponent(jLblNome))
+                    .addComponent(jLblGpfCodigo)
+                    .addComponent(jLblGpfNome))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTxtNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTxtGpfCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtGpfNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLblApelido)
-                    .addComponent(jLblCpf))
+                    .addComponent(jLblGpfApelido)
+                    .addComponent(jLblGpfCpf))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTxtApelido, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jFmtCpf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTxtGpfApelido, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jFmtGpfCpf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLblData)
-                    .addComponent(jLblNivel))
+                    .addComponent(jLblGpfData)
+                    .addComponent(jLblGpfNivel))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jFmtData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jCboNivel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jFmtGpfData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jCboGpfNivel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLblSenha)
+                .addComponent(jLblGpfSenha)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jPwfSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jChbAtivo))
+                    .addComponent(jPwfGpfSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jChbGpfAtivo))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jBtnIncluir)
-                    .addComponent(jBtnAlterar)
-                    .addComponent(jBtnExcluir)
-                    .addComponent(jBtnConfirmar)
-                    .addComponent(jBtnPesquisar)
-                    .addComponent(jBtnCancelar))
+                    .addComponent(jBtnGpfIncluir)
+                    .addComponent(jBtnGpfAlterar)
+                    .addComponent(jBtnGpfExcluir)
+                    .addComponent(jBtnGpfConfirmar)
+                    .addComponent(jBtnGpfPesquisar)
+                    .addComponent(jBtnGpfCancelar))
                 .addContainerGap(24, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jBtnIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnIncluirActionPerformed
+    private void jBtnGpfIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfIncluirActionPerformed
         // TODO add your handling code here:
         habilitar();
-    }//GEN-LAST:event_jBtnIncluirActionPerformed
+    }//GEN-LAST:event_jBtnGpfIncluirActionPerformed
 
-    private void jBtnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCancelarActionPerformed
+    private void jBtnGpfCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfCancelarActionPerformed
         // TODO add your handling code here:
         desabilitar();
-    }//GEN-LAST:event_jBtnCancelarActionPerformed
+    }//GEN-LAST:event_jBtnGpfCancelarActionPerformed
 
-    private void jBtnAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnAlterarActionPerformed
+    private void jBtnGpfAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfAlterarActionPerformed
         habilitar();        // TODO add your handling code here:
-    }//GEN-LAST:event_jBtnAlterarActionPerformed
+    }//GEN-LAST:event_jBtnGpfAlterarActionPerformed
 
-    private void jBtnConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnConfirmarActionPerformed
+    private void jBtnGpfConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfConfirmarActionPerformed
         desabilitar();        // TODO add your handling code here:
-    }//GEN-LAST:event_jBtnConfirmarActionPerformed
+    }//GEN-LAST:event_jBtnGpfConfirmarActionPerformed
 
-    private void jBtnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnExcluirActionPerformed
+    private void jBtnGpfExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfExcluirActionPerformed
         // TODO add your handling code here:
         JOptionPane.showConfirmDialog(null, "Confirma exclusão do usuário ?",
                 "Seleciona a opção", JOptionPane.YES_NO_OPTION);
-    }//GEN-LAST:event_jBtnExcluirActionPerformed
+    }//GEN-LAST:event_jBtnGpfExcluirActionPerformed
 
-    private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
+    private void jBtnGpfPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfPesquisarActionPerformed
         // TODO add your handling code here:
         JOptionPane.showInputDialog(null, "Entre com o código do usuário");
-    }//GEN-LAST:event_jBtnPesquisarActionPerformed
+    }//GEN-LAST:event_jBtnGpfPesquisarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -343,27 +343,27 @@ public class JDlgGpfUsuarios extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jBtnAlterar;
-    private javax.swing.JButton jBtnCancelar;
-    private javax.swing.JButton jBtnConfirmar;
-    private javax.swing.JButton jBtnExcluir;
-    private javax.swing.JButton jBtnIncluir;
-    private javax.swing.JButton jBtnPesquisar;
-    private javax.swing.JComboBox<String> jCboNivel;
-    private javax.swing.JCheckBox jChbAtivo;
-    private javax.swing.JFormattedTextField jFmtCpf;
-    private javax.swing.JFormattedTextField jFmtData;
-    private javax.swing.JLabel jLblApelido;
-    private javax.swing.JLabel jLblCodigo;
-    private javax.swing.JLabel jLblCpf;
-    private javax.swing.JLabel jLblData;
-    private javax.swing.JLabel jLblNivel;
-    private javax.swing.JLabel jLblNome;
-    private javax.swing.JLabel jLblSenha;
-    private javax.swing.JPasswordField jPwfSenha;
-    private javax.swing.JTextField jTxtApelido;
-    private javax.swing.JTextField jTxtCodigo;
-    private javax.swing.JTextField jTxtNome;
+    private javax.swing.JButton jBtnGpfAlterar;
+    private javax.swing.JButton jBtnGpfCancelar;
+    private javax.swing.JButton jBtnGpfConfirmar;
+    private javax.swing.JButton jBtnGpfExcluir;
+    private javax.swing.JButton jBtnGpfIncluir;
+    private javax.swing.JButton jBtnGpfPesquisar;
+    private javax.swing.JComboBox<String> jCboGpfNivel;
+    private javax.swing.JCheckBox jChbGpfAtivo;
+    private javax.swing.JFormattedTextField jFmtGpfCpf;
+    private javax.swing.JFormattedTextField jFmtGpfData;
+    private javax.swing.JLabel jLblGpfApelido;
+    private javax.swing.JLabel jLblGpfCodigo;
+    private javax.swing.JLabel jLblGpfCpf;
+    private javax.swing.JLabel jLblGpfData;
+    private javax.swing.JLabel jLblGpfNivel;
+    private javax.swing.JLabel jLblGpfNome;
+    private javax.swing.JLabel jLblGpfSenha;
+    private javax.swing.JPasswordField jPwfGpfSenha;
+    private javax.swing.JTextField jTxtGpfApelido;
+    private javax.swing.JTextField jTxtGpfCodigo;
+    private javax.swing.JTextField jTxtGpfNome;
     // End of variables declaration//GEN-END:variables
 
 }

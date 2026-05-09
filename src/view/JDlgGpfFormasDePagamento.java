@@ -4,6 +4,7 @@
  */
 package view;
 
+import static java.awt.Frame.MAXIMIZED_BOTH;
 import javax.swing.JOptionPane;
 
 /**
@@ -18,46 +19,43 @@ public class JDlgGpfFormasDePagamento extends javax.swing.JDialog {
     public JDlgGpfFormasDePagamento(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
-        setTitle("Cadastro de usuário");
+        setTitle("Cadastro de Formas De Pagamento");
         setLocationRelativeTo(null);
         desabilitar();
     }
-    
-    public void desabilitar(){
-        jTxtCodigo.setEnabled(false);
-        jTxtNome.setEnabled(false);
-        jTxtApelido.setEnabled(false);
-        jFmtData.setEnabled(false);
-        jFmtCpf.setEnabled(false);
-        jFmtData.setEnabled(false);
-        jCboNivel.setEnabled(false);
-        jPwfSenha.setEnabled(false);
-        jChbAtivo.setEnabled(false);
-        jBtnConfirmar.setEnabled(false);
-        jBtnCancelar.setEnabled(false);
-        jBtnIncluir.setEnabled(true);
-        jBtnAlterar.setEnabled(true);
-        jBtnExcluir.setEnabled(true);
-        jBtnPesquisar.setEnabled(true);
+
+    public void desabilitar() {
+        jTxtGpfCodigo.setEnabled(false);
+        jTxtGpfTipo.setEnabled(false);
+        jTxtGpfDescricao.setEnabled(false);
+        jFmtNGpfParcelas.setEnabled(false);
+        jFmtGpfTaxaDeJuros.setEnabled(false);
+        jFmtGpfPrazoDeDias.setEnabled(false);
+        jChbGpfAtivo.setEnabled(false);
+        jBtnGpfConfirmar.setEnabled(false);
+        jBtnGpfCancelar.setEnabled(false);
+        jBtnGpfIncluir.setEnabled(true);
+        jBtnGpfAlterar.setEnabled(true);
+        jBtnGpfExcluir.setEnabled(true);
+        jBtnGpfPesquisar.setEnabled(true);
     }
-    
-    public void habilitar(){
-        jTxtCodigo.setEnabled(true);
-        jTxtNome.setEnabled(true);
-        jTxtApelido.setEnabled(true);
-        jFmtData.setEnabled(true);
-        jFmtCpf.setEnabled(true);
-        jFmtData.setEnabled(true);
-        jCboNivel.setEnabled(true);
-        jPwfSenha.setEnabled(true);
-        jChbAtivo.setEnabled(true);
-        jBtnConfirmar.setEnabled(true);
-        jBtnCancelar.setEnabled(true);
-        jBtnIncluir.setEnabled(false);
-        jBtnAlterar.setEnabled(false);
-        jBtnExcluir.setEnabled(false);
-        jBtnPesquisar.setEnabled(false);
+
+    public void habilitar() {
+        jTxtGpfCodigo.setEnabled(true);
+        jTxtGpfTipo.setEnabled(true);
+        jTxtGpfDescricao.setEnabled(true);
+        jFmtNGpfParcelas.setEnabled(true);
+        jFmtGpfTaxaDeJuros.setEnabled(true);
+        jFmtGpfPrazoDeDias.setEnabled(true);
+        jChbGpfAtivo.setEnabled(true);
+        jBtnGpfConfirmar.setEnabled(true);
+        jBtnGpfCancelar.setEnabled(true);
+        jBtnGpfIncluir.setEnabled(false);
+        jBtnGpfAlterar.setEnabled(false);
+        jBtnGpfExcluir.setEnabled(false);
+        jBtnGpfPesquisar.setEnabled(false);
     }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -67,87 +65,87 @@ public class JDlgGpfFormasDePagamento extends javax.swing.JDialog {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLblCodigo = new javax.swing.JLabel();
-        jTxtCodigo = new javax.swing.JTextField();
-        jLblNome = new javax.swing.JLabel();
-        jTxtNome = new javax.swing.JTextField();
-        jLblApelido = new javax.swing.JLabel();
-        jTxtApelido = new javax.swing.JTextField();
-        jLblData = new javax.swing.JLabel();
-        jFmtData = new javax.swing.JFormattedTextField();
-        jLblNivel = new javax.swing.JLabel();
-        jLblSenha = new javax.swing.JLabel();
-        jChbAtivo = new javax.swing.JCheckBox();
-        jBtnIncluir = new javax.swing.JButton();
-        jBtnAlterar = new javax.swing.JButton();
-        jBtnExcluir = new javax.swing.JButton();
-        jBtnConfirmar = new javax.swing.JButton();
-        jBtnPesquisar = new javax.swing.JButton();
-        jBtnCancelar = new javax.swing.JButton();
-        jFmtData1 = new javax.swing.JFormattedTextField();
-        jTextField1 = new javax.swing.JTextField();
+        jLblGpfCodigo = new javax.swing.JLabel();
+        jTxtGpfCodigo = new javax.swing.JTextField();
+        jLblGpfTipo = new javax.swing.JLabel();
+        jTxtGpfTipo = new javax.swing.JTextField();
+        jLblGpfDescricao = new javax.swing.JLabel();
+        jTxtGpfDescricao = new javax.swing.JTextField();
+        jLblNGpfParcelas = new javax.swing.JLabel();
+        jFmtNGpfParcelas = new javax.swing.JFormattedTextField();
+        jLblGpfTaxaDeJuros = new javax.swing.JLabel();
+        jLblGpfPrazoDeDias = new javax.swing.JLabel();
+        jChbGpfAtivo = new javax.swing.JCheckBox();
+        jBtnGpfIncluir = new javax.swing.JButton();
+        jBtnGpfAlterar = new javax.swing.JButton();
+        jBtnGpfExcluir = new javax.swing.JButton();
+        jBtnGpfConfirmar = new javax.swing.JButton();
+        jBtnGpfPesquisar = new javax.swing.JButton();
+        jBtnGpfCancelar = new javax.swing.JButton();
+        jFmtGpfTaxaDeJuros = new javax.swing.JFormattedTextField();
+        jFmtGpfPrazoDeDias = new javax.swing.JFormattedTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        jLblCodigo.setText("Código");
+        jLblGpfCodigo.setText("Código");
 
-        jLblNome.setText("Tipo");
+        jLblGpfTipo.setText("Tipo");
 
-        jLblApelido.setText("Descrição");
+        jLblGpfDescricao.setText("Descrição");
 
-        jLblData.setText("N° Parcelas");
+        jLblNGpfParcelas.setText("N° Parcelas");
 
-        jLblNivel.setText("Taxa de Juros");
+        jLblGpfTaxaDeJuros.setText("Taxa de Juros");
 
-        jLblSenha.setText("Prazo de Dias");
+        jLblGpfPrazoDeDias.setText("Prazo de Dias");
 
-        jChbAtivo.setText("Ativo");
+        jChbGpfAtivo.setText("Ativo");
 
-        jBtnIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
-        jBtnIncluir.setText("Incluir");
-        jBtnIncluir.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
+        jBtnGpfIncluir.setText("Incluir");
+        jBtnGpfIncluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnIncluirActionPerformed(evt);
+                jBtnGpfIncluirActionPerformed(evt);
             }
         });
 
-        jBtnAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
-        jBtnAlterar.setText("Alterar");
-        jBtnAlterar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
+        jBtnGpfAlterar.setText("Alterar");
+        jBtnGpfAlterar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnAlterarActionPerformed(evt);
+                jBtnGpfAlterarActionPerformed(evt);
             }
         });
 
-        jBtnExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
-        jBtnExcluir.setText("Excluir");
-        jBtnExcluir.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
+        jBtnGpfExcluir.setText("Excluir");
+        jBtnGpfExcluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnExcluirActionPerformed(evt);
+                jBtnGpfExcluirActionPerformed(evt);
             }
         });
 
-        jBtnConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
-        jBtnConfirmar.setText("Confirmar");
-        jBtnConfirmar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
+        jBtnGpfConfirmar.setText("Confirmar");
+        jBtnGpfConfirmar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnConfirmarActionPerformed(evt);
+                jBtnGpfConfirmarActionPerformed(evt);
             }
         });
 
-        jBtnPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
-        jBtnPesquisar.setText("Pesquisar");
-        jBtnPesquisar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
+        jBtnGpfPesquisar.setText("Pesquisar");
+        jBtnGpfPesquisar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnPesquisarActionPerformed(evt);
+                jBtnGpfPesquisarActionPerformed(evt);
             }
         });
 
-        jBtnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
-        jBtnCancelar.setText("Cancelar");
-        jBtnCancelar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
+        jBtnGpfCancelar.setText("Cancelar");
+        jBtnGpfCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnCancelarActionPerformed(evt);
+                jBtnGpfCancelarActionPerformed(evt);
             }
         });
 
@@ -158,48 +156,48 @@ public class JDlgGpfFormasDePagamento extends javax.swing.JDialog {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTxtApelido, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jTxtGpfDescricao, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLblCodigo))
+                            .addComponent(jTxtGpfCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLblGpfCodigo))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLblNome, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jLblGpfTipo, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(0, 0, Short.MAX_VALUE))
-                            .addComponent(jTxtNome)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jBtnIncluir)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnAlterar)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnExcluir)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnConfirmar)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnCancelar)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
-                        .addComponent(jBtnPesquisar))
+                            .addComponent(jTxtGpfTipo)))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLblApelido)
+                            .addComponent(jLblGpfDescricao)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLblData)
-                                    .addComponent(jFmtData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jLblNGpfParcelas)
+                                    .addComponent(jFmtNGpfParcelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLblNivel)
-                                    .addComponent(jFmtData1, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jLblGpfTaxaDeJuros)
+                                    .addComponent(jFmtGpfTaxaDeJuros, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLblSenha)
+                                    .addComponent(jLblGpfPrazoDeDias)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(31, 31, 31)
-                                        .addComponent(jChbAtivo)))))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                                        .addComponent(jFmtGpfPrazoDeDias, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(47, 47, 47)
+                                        .addComponent(jChbGpfAtivo)))))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jBtnGpfIncluir)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jBtnGpfAlterar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jBtnGpfExcluir)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jBtnGpfConfirmar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jBtnGpfCancelar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
+                        .addComponent(jBtnGpfPesquisar)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -207,76 +205,76 @@ public class JDlgGpfFormasDePagamento extends javax.swing.JDialog {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLblCodigo)
-                    .addComponent(jLblNome))
+                    .addComponent(jLblGpfCodigo)
+                    .addComponent(jLblGpfTipo))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTxtNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTxtGpfCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtGpfTipo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLblApelido)
+                .addComponent(jLblGpfDescricao)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jTxtApelido, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jTxtGpfDescricao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLblData)
+                                .addComponent(jLblNGpfParcelas)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jFmtData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jFmtNGpfParcelas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLblNivel)
+                                .addComponent(jLblGpfTaxaDeJuros)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jFmtData1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jFmtGpfTaxaDeJuros)
+                                    .addComponent(jFmtGpfPrazoDeDias, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLblSenha)
+                        .addComponent(jLblGpfPrazoDeDias)
                         .addGap(28, 28, 28))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jChbAtivo)))
+                    .addComponent(jChbGpfAtivo))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jBtnIncluir)
-                    .addComponent(jBtnAlterar)
-                    .addComponent(jBtnExcluir)
-                    .addComponent(jBtnConfirmar)
-                    .addComponent(jBtnPesquisar)
-                    .addComponent(jBtnCancelar))
-                .addContainerGap(34, Short.MAX_VALUE))
+                    .addComponent(jBtnGpfIncluir)
+                    .addComponent(jBtnGpfAlterar)
+                    .addComponent(jBtnGpfExcluir)
+                    .addComponent(jBtnGpfConfirmar)
+                    .addComponent(jBtnGpfPesquisar)
+                    .addComponent(jBtnGpfCancelar))
+                .addGap(34, 34, 34))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jBtnIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnIncluirActionPerformed
+    private void jBtnGpfIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfIncluirActionPerformed
         // TODO add your handling code here:
         habilitar();
-    }//GEN-LAST:event_jBtnIncluirActionPerformed
+    }//GEN-LAST:event_jBtnGpfIncluirActionPerformed
 
-    private void jBtnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCancelarActionPerformed
+    private void jBtnGpfCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfCancelarActionPerformed
         // TODO add your handling code here:
         desabilitar();
-    }//GEN-LAST:event_jBtnCancelarActionPerformed
+    }//GEN-LAST:event_jBtnGpfCancelarActionPerformed
 
-    private void jBtnAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnAlterarActionPerformed
-    habilitar();        // TODO add your handling code here:
-    }//GEN-LAST:event_jBtnAlterarActionPerformed
+    private void jBtnGpfAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfAlterarActionPerformed
+        habilitar();        // TODO add your handling code here:
+    }//GEN-LAST:event_jBtnGpfAlterarActionPerformed
 
-    private void jBtnConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnConfirmarActionPerformed
-    desabilitar();        // TODO add your handling code here:
-    }//GEN-LAST:event_jBtnConfirmarActionPerformed
+    private void jBtnGpfConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfConfirmarActionPerformed
+        desabilitar();        // TODO add your handling code here:
+    }//GEN-LAST:event_jBtnGpfConfirmarActionPerformed
 
-    private void jBtnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnExcluirActionPerformed
+    private void jBtnGpfExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfExcluirActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showConfirmDialog(null, "Confirma exclusão do usuário ?",
-                "Seleciona a opção", JOptionPane.YES_NO_OPTION );
-    }//GEN-LAST:event_jBtnExcluirActionPerformed
+        JOptionPane.showConfirmDialog(null, "Confirma exclusão da forma de pagamento?",
+                "Seleciona a opção", JOptionPane.YES_NO_OPTION);
+    }//GEN-LAST:event_jBtnGpfExcluirActionPerformed
 
-    private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
+    private void jBtnGpfPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfPesquisarActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showInputDialog(null, "Entre com o código do usuário");
-    }//GEN-LAST:event_jBtnPesquisarActionPerformed
+        JOptionPane.showInputDialog(null, "Entre com o código da Forma de pagamento");
+    }//GEN-LAST:event_jBtnGpfPesquisarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -336,24 +334,25 @@ public class JDlgGpfFormasDePagamento extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jBtnAlterar;
-    private javax.swing.JButton jBtnCancelar;
-    private javax.swing.JButton jBtnConfirmar;
-    private javax.swing.JButton jBtnExcluir;
-    private javax.swing.JButton jBtnIncluir;
-    private javax.swing.JButton jBtnPesquisar;
-    private javax.swing.JCheckBox jChbAtivo;
-    private javax.swing.JFormattedTextField jFmtData;
-    private javax.swing.JFormattedTextField jFmtData1;
-    private javax.swing.JLabel jLblApelido;
-    private javax.swing.JLabel jLblCodigo;
-    private javax.swing.JLabel jLblData;
-    private javax.swing.JLabel jLblNivel;
-    private javax.swing.JLabel jLblNome;
-    private javax.swing.JLabel jLblSenha;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTxtApelido;
-    private javax.swing.JTextField jTxtCodigo;
-    private javax.swing.JTextField jTxtNome;
+    private javax.swing.JButton jBtnGpfAlterar;
+    private javax.swing.JButton jBtnGpfCancelar;
+    private javax.swing.JButton jBtnGpfConfirmar;
+    private javax.swing.JButton jBtnGpfExcluir;
+    private javax.swing.JButton jBtnGpfIncluir;
+    private javax.swing.JButton jBtnGpfPesquisar;
+    private javax.swing.JCheckBox jChbGpfAtivo;
+    private javax.swing.JFormattedTextField jFmtGpfPrazoDeDias;
+    private javax.swing.JFormattedTextField jFmtGpfTaxaDeJuros;
+    private javax.swing.JFormattedTextField jFmtNGpfParcelas;
+    private javax.swing.JLabel jLblGpfCodigo;
+    private javax.swing.JLabel jLblGpfDescricao;
+    private javax.swing.JLabel jLblGpfPrazoDeDias;
+    private javax.swing.JLabel jLblGpfTaxaDeJuros;
+    private javax.swing.JLabel jLblGpfTipo;
+    private javax.swing.JLabel jLblNGpfParcelas;
+    private javax.swing.JTextField jTxtGpfCodigo;
+    private javax.swing.JTextField jTxtGpfDescricao;
+    private javax.swing.JTextField jTxtGpfTipo;
     // End of variables declaration//GEN-END:variables
+
 }

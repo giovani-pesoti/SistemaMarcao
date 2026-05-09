@@ -32,7 +32,7 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMnuCadastros = new javax.swing.JMenu();
+        jMnuGpfCadastros = new javax.swing.JMenu();
         jMnuUsuarios = new javax.swing.JMenuItem();
         jMnuClientes = new javax.swing.JMenuItem();
         jMnuFornecedores = new javax.swing.JMenuItem();
@@ -40,7 +40,7 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
         jMnuFormasDePagamento = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         jMnuSair = new javax.swing.JMenuItem();
-        jMnuMovimentos = new javax.swing.JMenu();
+        jMnuGpfMovimentos = new javax.swing.JMenu();
         jMnuVendas = new javax.swing.JMenuItem();
         jMnuCompras = new javax.swing.JMenuItem();
 
@@ -52,8 +52,8 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jMnuCadastros.setMnemonic('c');
-        jMnuCadastros.setText("Cadastros");
+        jMnuGpfCadastros.setMnemonic('c');
+        jMnuGpfCadastros.setText("Cadastros");
 
         jMnuUsuarios.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_U, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/usuario.png"))); // NOI18N
@@ -64,7 +64,7 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
                 jMnuUsuariosActionPerformed(evt);
             }
         });
-        jMnuCadastros.add(jMnuUsuarios);
+        jMnuGpfCadastros.add(jMnuUsuarios);
 
         jMnuClientes.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cliente.png"))); // NOI18N
@@ -75,7 +75,7 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
                 jMnuClientesActionPerformed(evt);
             }
         });
-        jMnuCadastros.add(jMnuClientes);
+        jMnuGpfCadastros.add(jMnuClientes);
 
         jMnuFornecedores.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuFornecedores.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fornecedor.png"))); // NOI18N
@@ -86,7 +86,7 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
                 jMnuFornecedoresActionPerformed(evt);
             }
         });
-        jMnuCadastros.add(jMnuFornecedores);
+        jMnuGpfCadastros.add(jMnuFornecedores);
 
         jMnuProdutos.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_I, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuProdutos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/produto.png"))); // NOI18N
@@ -97,7 +97,7 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
                 jMnuProdutosActionPerformed(evt);
             }
         });
-        jMnuCadastros.add(jMnuProdutos);
+        jMnuGpfCadastros.add(jMnuProdutos);
 
         jMnuFormasDePagamento.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_N, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuFormasDePagamento.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pagamento.png"))); // NOI18N
@@ -108,8 +108,8 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
                 jMnuFormasDePagamentoActionPerformed(evt);
             }
         });
-        jMnuCadastros.add(jMnuFormasDePagamento);
-        jMnuCadastros.add(jSeparator1);
+        jMnuGpfCadastros.add(jMnuFormasDePagamento);
+        jMnuGpfCadastros.add(jSeparator1);
 
         jMnuSair.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/exit.png"))); // NOI18N
@@ -120,26 +120,26 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
                 jMnuSairActionPerformed(evt);
             }
         });
-        jMnuCadastros.add(jMnuSair);
+        jMnuGpfCadastros.add(jMnuSair);
 
-        jMenuBar1.add(jMnuCadastros);
+        jMenuBar1.add(jMnuGpfCadastros);
 
-        jMnuMovimentos.setMnemonic('m');
-        jMnuMovimentos.setText("Movimentos");
+        jMnuGpfMovimentos.setMnemonic('m');
+        jMnuGpfMovimentos.setText("Movimentos");
 
         jMnuVendas.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuVendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/vendas.png"))); // NOI18N
         jMnuVendas.setMnemonic('v');
         jMnuVendas.setText("Vendas");
-        jMnuMovimentos.add(jMnuVendas);
+        jMnuGpfMovimentos.add(jMnuVendas);
 
         jMnuCompras.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMnuCompras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/compras.png"))); // NOI18N
         jMnuCompras.setMnemonic('c');
         jMnuCompras.setText("Compras");
-        jMnuMovimentos.add(jMnuCompras);
+        jMnuGpfMovimentos.add(jMnuCompras);
 
-        jMenuBar1.add(jMnuMovimentos);
+        jMenuBar1.add(jMnuGpfMovimentos);
 
         setJMenuBar(jMenuBar1);
 
@@ -243,7 +243,7 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new JFrmGpfPrincipal().setVisible(true);
+                new JDlgGpfLogin(null, true).setVisible(true);
             }
         });
     }
@@ -253,12 +253,12 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuBar jMenuBar2;
-    private javax.swing.JMenu jMnuCadastros;
     private javax.swing.JMenuItem jMnuClientes;
     private javax.swing.JMenuItem jMnuCompras;
     private javax.swing.JMenuItem jMnuFormasDePagamento;
     private javax.swing.JMenuItem jMnuFornecedores;
-    private javax.swing.JMenu jMnuMovimentos;
+    private javax.swing.JMenu jMnuGpfCadastros;
+    private javax.swing.JMenu jMnuGpfMovimentos;
     private javax.swing.JMenuItem jMnuProdutos;
     private javax.swing.JMenuItem jMnuSair;
     private javax.swing.JMenuItem jMnuUsuarios;

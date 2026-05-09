@@ -26,57 +26,57 @@
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jTxtDescricao" alignment="1" max="32767" attributes="0"/>
+                  <Component id="jTxtGpfDescricao" alignment="1" max="32767" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jTxtCodigo" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
-                          <Component id="jLblCodigo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTxtGpfCodigo" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                          <Component id="jLblGpfCodigo" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="jLblNome" min="-2" pref="64" max="-2" attributes="0"/>
+                              <Component id="jLblGpfNome" min="-2" pref="64" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Component id="jTxtNome" max="32767" attributes="0"/>
+                          <Component id="jTxtGpfNome" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jBtnIncluir" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBtnGpfIncluir" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jBtnAlterar" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBtnGpfAlterar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jBtnExcluir" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBtnGpfExcluir" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jBtnConfirmar" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBtnGpfConfirmar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jBtnCancelar" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBtnGpfCancelar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="8" max="32767" attributes="0"/>
-                      <Component id="jBtnPesquisar" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBtnGpfPesquisar" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jFmtPrecoCusto" min="-2" pref="184" max="-2" attributes="0"/>
-                          <Component id="jLblPrecoCusto" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFmtGpfPrecoCusto" min="-2" pref="184" max="-2" attributes="0"/>
+                          <Component id="jLblGpfPrecoCusto" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLblPrecoVenda" min="-2" max="-2" attributes="0"/>
-                          <Component id="jFmtPrecoVenda" min="-2" pref="159" max="-2" attributes="0"/>
+                          <Component id="jLblGpfPrecoVenda" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFmtGpfPrecoVenda" min="-2" pref="159" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="jLblQuantidade" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLblGpfQuantidade" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Component id="jTxtQuantidade" max="32767" attributes="0"/>
+                          <Component id="jTxtGpfQuantidade" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLblDescricao" min="-2" max="-2" attributes="0"/>
-                          <Component id="jChbAtivo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLblGpfDescricao" min="-2" max="-2" attributes="0"/>
+                          <Component id="jChbGpfAtivo" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
@@ -90,47 +90,47 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLblCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLblNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLblGpfCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLblGpfNome" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTxtCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jTxtNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtGpfCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtGpfNome" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLblDescricao" min="-2" max="-2" attributes="0"/>
+              <Component id="jLblGpfDescricao" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="jTxtDescricao" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTxtGpfDescricao" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLblPrecoCusto" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLblQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLblGpfPrecoCusto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLblGpfQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jFmtPrecoCusto" min="-2" max="-2" attributes="0"/>
+                      <Component id="jFmtGpfPrecoCusto" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Component id="jLblPrecoVenda" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLblGpfPrecoVenda" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jFmtPrecoVenda" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTxtQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jFmtGpfPrecoVenda" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTxtGpfQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-              <Component id="jChbAtivo" min="-2" max="-2" attributes="0"/>
+              <Component id="jChbGpfAtivo" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jBtnIncluir" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jBtnAlterar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jBtnExcluir" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jBtnConfirmar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jBtnPesquisar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jBtnCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnGpfIncluir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnGpfAlterar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnGpfExcluir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnGpfConfirmar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnGpfPesquisar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnGpfCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="33" max="32767" attributes="0"/>
           </Group>
@@ -138,50 +138,50 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLblCodigo">
+    <Component class="javax.swing.JLabel" name="jLblGpfCodigo">
       <Properties>
         <Property name="text" type="java.lang.String" value="C&#xf3;digo"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtCodigo">
+    <Component class="javax.swing.JTextField" name="jTxtGpfCodigo">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLblNome">
+    <Component class="javax.swing.JLabel" name="jLblGpfNome">
       <Properties>
         <Property name="text" type="java.lang.String" value="Nome"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtNome">
+    <Component class="javax.swing.JTextField" name="jTxtGpfNome">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLblDescricao">
+    <Component class="javax.swing.JLabel" name="jLblGpfDescricao">
       <Properties>
         <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtDescricao">
+    <Component class="javax.swing.JTextField" name="jTxtGpfDescricao">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLblPrecoCusto">
+    <Component class="javax.swing.JLabel" name="jLblGpfPrecoCusto">
       <Properties>
         <Property name="text" type="java.lang.String" value="Pre&#xe7;o Custo"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JFormattedTextField" name="jFmtPrecoCusto">
+    <Component class="javax.swing.JFormattedTextField" name="jFmtGpfPrecoCusto">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLblPrecoVenda">
+    <Component class="javax.swing.JLabel" name="jLblGpfPrecoVenda">
       <Properties>
         <Property name="text" type="java.lang.String" value="Pre&#xe7;o Venda"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLblQuantidade">
+    <Component class="javax.swing.JLabel" name="jLblGpfQuantidade">
       <Properties>
         <Property name="text" type="java.lang.String" value="Quantidade"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JCheckBox" name="jChbAtivo">
+    <Component class="javax.swing.JCheckBox" name="jChbGpfAtivo">
       <Properties>
         <Property name="text" type="java.lang.String" value="Ativo"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jBtnIncluir">
+    <Component class="javax.swing.JButton" name="jBtnGpfIncluir">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imagens/incluir.png"/>
@@ -189,10 +189,10 @@
         <Property name="text" type="java.lang.String" value="Incluir"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnIncluirActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnGpfIncluirActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jBtnAlterar">
+    <Component class="javax.swing.JButton" name="jBtnGpfAlterar">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imagens/alterar.png"/>
@@ -200,10 +200,10 @@
         <Property name="text" type="java.lang.String" value="Alterar"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnAlterarActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnGpfAlterarActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jBtnExcluir">
+    <Component class="javax.swing.JButton" name="jBtnGpfExcluir">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imagens/Excluir.png"/>
@@ -211,10 +211,10 @@
         <Property name="text" type="java.lang.String" value="Excluir"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnExcluirActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnGpfExcluirActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jBtnConfirmar">
+    <Component class="javax.swing.JButton" name="jBtnGpfConfirmar">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imagens/gravar.png"/>
@@ -222,10 +222,10 @@
         <Property name="text" type="java.lang.String" value="Confirmar"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnConfirmarActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnGpfConfirmarActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jBtnPesquisar">
+    <Component class="javax.swing.JButton" name="jBtnGpfPesquisar">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imagens/pesquisar.png"/>
@@ -233,10 +233,10 @@
         <Property name="text" type="java.lang.String" value="Pesquisar"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnPesquisarActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnGpfPesquisarActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jBtnCancelar">
+    <Component class="javax.swing.JButton" name="jBtnGpfCancelar">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imagens/cancelar.png"/>
@@ -244,12 +244,12 @@
         <Property name="text" type="java.lang.String" value="Cancelar"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnCancelarActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnGpfCancelarActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JFormattedTextField" name="jFmtPrecoVenda">
+    <Component class="javax.swing.JFormattedTextField" name="jFmtGpfPrecoVenda">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTxtQuantidade">
+    <Component class="javax.swing.JTextField" name="jTxtGpfQuantidade">
     </Component>
   </SubComponents>
 </Form>

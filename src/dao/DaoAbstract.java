@@ -6,13 +6,12 @@ package dao;
 
 /**
  *
- * @author u71744222177
+ * @author Giovani
  */
 public abstract class DaoAbstract {
     public abstract void insert(Object object);
     public abstract void update(Object object);
     public abstract void delete(Object object);
-    public abstract Object list(int id);
-    public abstract Object listAll();
-    
+    public abstract void list(int id);
+    public abstract void listAll();
 }

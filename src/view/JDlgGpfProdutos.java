@@ -25,35 +25,35 @@ public class JDlgGpfProdutos extends javax.swing.JDialog {
     }
 
     public void desabilitar() {
-        jTxtCodigo.setEnabled(false);
-        jTxtNome.setEnabled(false);
-        jTxtDescricao.setEnabled(false);
-        jFmtPrecoCusto.setEnabled(false);
-        jFmtPrecoVenda.setEnabled(false);
-        jTxtQuantidade.setEnabled(false);
-        jChbAtivo.setEnabled(false);
-        jBtnConfirmar.setEnabled(false);
-        jBtnCancelar.setEnabled(false);
-        jBtnIncluir.setEnabled(true);
-        jBtnAlterar.setEnabled(true);
-        jBtnExcluir.setEnabled(true);
-        jBtnPesquisar.setEnabled(true);
+        jTxtGpfCodigo.setEnabled(false);
+        jTxtGpfNome.setEnabled(false);
+        jTxtGpfDescricao.setEnabled(false);
+        jFmtGpfPrecoCusto.setEnabled(false);
+        jFmtGpfPrecoVenda.setEnabled(false);
+        jTxtGpfQuantidade.setEnabled(false);
+        jChbGpfAtivo.setEnabled(false);
+        jBtnGpfConfirmar.setEnabled(false);
+        jBtnGpfCancelar.setEnabled(false);
+        jBtnGpfIncluir.setEnabled(true);
+        jBtnGpfAlterar.setEnabled(true);
+        jBtnGpfExcluir.setEnabled(true);
+        jBtnGpfPesquisar.setEnabled(true);
     }
 
     public void habilitar() {
-        jTxtCodigo.setEnabled(true);
-        jTxtNome.setEnabled(true);
-        jTxtDescricao.setEnabled(true);
-        jFmtPrecoCusto.setEnabled(true);
-        jFmtPrecoVenda.setEnabled(true);
-        jTxtQuantidade.setEnabled(true);
-        jChbAtivo.setEnabled(true);
-        jBtnConfirmar.setEnabled(true);
-        jBtnCancelar.setEnabled(true);
-        jBtnIncluir.setEnabled(false);
-        jBtnAlterar.setEnabled(false);
-        jBtnExcluir.setEnabled(false);
-        jBtnPesquisar.setEnabled(false);
+        jTxtGpfCodigo.setEnabled(true);
+        jTxtGpfNome.setEnabled(true);
+        jTxtGpfDescricao.setEnabled(true);
+        jFmtGpfPrecoCusto.setEnabled(true);
+        jFmtGpfPrecoVenda.setEnabled(true);
+        jTxtGpfQuantidade.setEnabled(true);
+        jChbGpfAtivo.setEnabled(true);
+        jBtnGpfConfirmar.setEnabled(true);
+        jBtnGpfCancelar.setEnabled(true);
+        jBtnGpfIncluir.setEnabled(false);
+        jBtnGpfAlterar.setEnabled(false);
+        jBtnGpfExcluir.setEnabled(false);
+        jBtnGpfPesquisar.setEnabled(false);
     }
 
     /**
@@ -65,87 +65,87 @@ public class JDlgGpfProdutos extends javax.swing.JDialog {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLblCodigo = new javax.swing.JLabel();
-        jTxtCodigo = new javax.swing.JTextField();
-        jLblNome = new javax.swing.JLabel();
-        jTxtNome = new javax.swing.JTextField();
-        jLblDescricao = new javax.swing.JLabel();
-        jTxtDescricao = new javax.swing.JTextField();
-        jLblPrecoCusto = new javax.swing.JLabel();
-        jFmtPrecoCusto = new javax.swing.JFormattedTextField();
-        jLblPrecoVenda = new javax.swing.JLabel();
-        jLblQuantidade = new javax.swing.JLabel();
-        jChbAtivo = new javax.swing.JCheckBox();
-        jBtnIncluir = new javax.swing.JButton();
-        jBtnAlterar = new javax.swing.JButton();
-        jBtnExcluir = new javax.swing.JButton();
-        jBtnConfirmar = new javax.swing.JButton();
-        jBtnPesquisar = new javax.swing.JButton();
-        jBtnCancelar = new javax.swing.JButton();
-        jFmtPrecoVenda = new javax.swing.JFormattedTextField();
-        jTxtQuantidade = new javax.swing.JTextField();
+        jLblGpfCodigo = new javax.swing.JLabel();
+        jTxtGpfCodigo = new javax.swing.JTextField();
+        jLblGpfNome = new javax.swing.JLabel();
+        jTxtGpfNome = new javax.swing.JTextField();
+        jLblGpfDescricao = new javax.swing.JLabel();
+        jTxtGpfDescricao = new javax.swing.JTextField();
+        jLblGpfPrecoCusto = new javax.swing.JLabel();
+        jFmtGpfPrecoCusto = new javax.swing.JFormattedTextField();
+        jLblGpfPrecoVenda = new javax.swing.JLabel();
+        jLblGpfQuantidade = new javax.swing.JLabel();
+        jChbGpfAtivo = new javax.swing.JCheckBox();
+        jBtnGpfIncluir = new javax.swing.JButton();
+        jBtnGpfAlterar = new javax.swing.JButton();
+        jBtnGpfExcluir = new javax.swing.JButton();
+        jBtnGpfConfirmar = new javax.swing.JButton();
+        jBtnGpfPesquisar = new javax.swing.JButton();
+        jBtnGpfCancelar = new javax.swing.JButton();
+        jFmtGpfPrecoVenda = new javax.swing.JFormattedTextField();
+        jTxtGpfQuantidade = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        jLblCodigo.setText("Código");
+        jLblGpfCodigo.setText("Código");
 
-        jLblNome.setText("Nome");
+        jLblGpfNome.setText("Nome");
 
-        jLblDescricao.setText("Descrição");
+        jLblGpfDescricao.setText("Descrição");
 
-        jLblPrecoCusto.setText("Preço Custo");
+        jLblGpfPrecoCusto.setText("Preço Custo");
 
-        jLblPrecoVenda.setText("Preço Venda");
+        jLblGpfPrecoVenda.setText("Preço Venda");
 
-        jLblQuantidade.setText("Quantidade");
+        jLblGpfQuantidade.setText("Quantidade");
 
-        jChbAtivo.setText("Ativo");
+        jChbGpfAtivo.setText("Ativo");
 
-        jBtnIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
-        jBtnIncluir.setText("Incluir");
-        jBtnIncluir.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfIncluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/incluir.png"))); // NOI18N
+        jBtnGpfIncluir.setText("Incluir");
+        jBtnGpfIncluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnIncluirActionPerformed(evt);
+                jBtnGpfIncluirActionPerformed(evt);
             }
         });
 
-        jBtnAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
-        jBtnAlterar.setText("Alterar");
-        jBtnAlterar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfAlterar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/alterar.png"))); // NOI18N
+        jBtnGpfAlterar.setText("Alterar");
+        jBtnGpfAlterar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnAlterarActionPerformed(evt);
+                jBtnGpfAlterarActionPerformed(evt);
             }
         });
 
-        jBtnExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
-        jBtnExcluir.setText("Excluir");
-        jBtnExcluir.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Excluir.png"))); // NOI18N
+        jBtnGpfExcluir.setText("Excluir");
+        jBtnGpfExcluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnExcluirActionPerformed(evt);
+                jBtnGpfExcluirActionPerformed(evt);
             }
         });
 
-        jBtnConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
-        jBtnConfirmar.setText("Confirmar");
-        jBtnConfirmar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfConfirmar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gravar.png"))); // NOI18N
+        jBtnGpfConfirmar.setText("Confirmar");
+        jBtnGpfConfirmar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnConfirmarActionPerformed(evt);
+                jBtnGpfConfirmarActionPerformed(evt);
             }
         });
 
-        jBtnPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
-        jBtnPesquisar.setText("Pesquisar");
-        jBtnPesquisar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pesquisar.png"))); // NOI18N
+        jBtnGpfPesquisar.setText("Pesquisar");
+        jBtnGpfPesquisar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnPesquisarActionPerformed(evt);
+                jBtnGpfPesquisarActionPerformed(evt);
             }
         });
 
-        jBtnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
-        jBtnCancelar.setText("Cancelar");
-        jBtnCancelar.addActionListener(new java.awt.event.ActionListener() {
+        jBtnGpfCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cancelar.png"))); // NOI18N
+        jBtnGpfCancelar.setText("Cancelar");
+        jBtnGpfCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnCancelarActionPerformed(evt);
+                jBtnGpfCancelarActionPerformed(evt);
             }
         });
 
@@ -156,47 +156,47 @@ public class JDlgGpfProdutos extends javax.swing.JDialog {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTxtDescricao, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jTxtGpfDescricao, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLblCodigo))
+                            .addComponent(jTxtGpfCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLblGpfCodigo))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLblNome, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jLblGpfNome, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(0, 0, Short.MAX_VALUE))
-                            .addComponent(jTxtNome)))
+                            .addComponent(jTxtGpfNome)))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jBtnIncluir)
+                        .addComponent(jBtnGpfIncluir)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnAlterar)
+                        .addComponent(jBtnGpfAlterar)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnExcluir)
+                        .addComponent(jBtnGpfExcluir)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnConfirmar)
+                        .addComponent(jBtnGpfConfirmar)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jBtnCancelar)
+                        .addComponent(jBtnGpfCancelar)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
-                        .addComponent(jBtnPesquisar))
+                        .addComponent(jBtnGpfPesquisar))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jFmtPrecoCusto, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLblPrecoCusto))
+                            .addComponent(jFmtGpfPrecoCusto, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLblGpfPrecoCusto))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLblPrecoVenda)
-                            .addComponent(jFmtPrecoVenda, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLblGpfPrecoVenda)
+                            .addComponent(jFmtGpfPrecoVenda, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLblQuantidade)
+                                .addComponent(jLblGpfQuantidade)
                                 .addGap(0, 0, Short.MAX_VALUE))
-                            .addComponent(jTxtQuantidade)))
+                            .addComponent(jTxtGpfQuantidade)))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLblDescricao)
-                            .addComponent(jChbAtivo))
+                            .addComponent(jLblGpfDescricao)
+                            .addComponent(jChbGpfAtivo))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -205,74 +205,74 @@ public class JDlgGpfProdutos extends javax.swing.JDialog {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLblCodigo)
-                    .addComponent(jLblNome))
+                    .addComponent(jLblGpfCodigo)
+                    .addComponent(jLblGpfNome))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTxtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTxtNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTxtGpfCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTxtGpfNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLblDescricao)
+                .addComponent(jLblGpfDescricao)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jTxtDescricao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jTxtGpfDescricao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLblPrecoCusto)
-                            .addComponent(jLblQuantidade))
+                            .addComponent(jLblGpfPrecoCusto)
+                            .addComponent(jLblGpfQuantidade))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jFmtPrecoCusto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jFmtGpfPrecoCusto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLblPrecoVenda)
+                        .addComponent(jLblGpfPrecoVenda)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jFmtPrecoVenda, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTxtQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(jFmtGpfPrecoVenda, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTxtGpfQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(21, 21, 21)
-                .addComponent(jChbAtivo)
+                .addComponent(jChbGpfAtivo)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jBtnIncluir)
-                    .addComponent(jBtnAlterar)
-                    .addComponent(jBtnExcluir)
-                    .addComponent(jBtnConfirmar)
-                    .addComponent(jBtnPesquisar)
-                    .addComponent(jBtnCancelar))
+                    .addComponent(jBtnGpfIncluir)
+                    .addComponent(jBtnGpfAlterar)
+                    .addComponent(jBtnGpfExcluir)
+                    .addComponent(jBtnGpfConfirmar)
+                    .addComponent(jBtnGpfPesquisar)
+                    .addComponent(jBtnGpfCancelar))
                 .addContainerGap(33, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jBtnIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnIncluirActionPerformed
+    private void jBtnGpfIncluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfIncluirActionPerformed
         // TODO add your handling code here:
         habilitar();
-    }//GEN-LAST:event_jBtnIncluirActionPerformed
+    }//GEN-LAST:event_jBtnGpfIncluirActionPerformed
 
-    private void jBtnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCancelarActionPerformed
+    private void jBtnGpfCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfCancelarActionPerformed
         // TODO add your handling code here:
         desabilitar();
-    }//GEN-LAST:event_jBtnCancelarActionPerformed
+    }//GEN-LAST:event_jBtnGpfCancelarActionPerformed
 
-    private void jBtnAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnAlterarActionPerformed
+    private void jBtnGpfAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfAlterarActionPerformed
         habilitar();        // TODO add your handling code here:
-    }//GEN-LAST:event_jBtnAlterarActionPerformed
+    }//GEN-LAST:event_jBtnGpfAlterarActionPerformed
 
-    private void jBtnConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnConfirmarActionPerformed
+    private void jBtnGpfConfirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfConfirmarActionPerformed
         desabilitar();        // TODO add your handling code here:
-    }//GEN-LAST:event_jBtnConfirmarActionPerformed
+    }//GEN-LAST:event_jBtnGpfConfirmarActionPerformed
 
-    private void jBtnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnExcluirActionPerformed
+    private void jBtnGpfExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfExcluirActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showConfirmDialog(null, "Confirma exclusão do usuário ?",
+        JOptionPane.showConfirmDialog(null, "Confirma exclusão do produto ?",
                 "Seleciona a opção", JOptionPane.YES_NO_OPTION);
-    }//GEN-LAST:event_jBtnExcluirActionPerformed
+    }//GEN-LAST:event_jBtnGpfExcluirActionPerformed
 
-    private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
+    private void jBtnGpfPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnGpfPesquisarActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showInputDialog(null, "Entre com o código do usuário");
-    }//GEN-LAST:event_jBtnPesquisarActionPerformed
+        JOptionPane.showInputDialog(null, "Entre com o código do produto");
+    }//GEN-LAST:event_jBtnGpfPesquisarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -324,25 +324,25 @@ public class JDlgGpfProdutos extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jBtnAlterar;
-    private javax.swing.JButton jBtnCancelar;
-    private javax.swing.JButton jBtnConfirmar;
-    private javax.swing.JButton jBtnExcluir;
-    private javax.swing.JButton jBtnIncluir;
-    private javax.swing.JButton jBtnPesquisar;
-    private javax.swing.JCheckBox jChbAtivo;
-    private javax.swing.JFormattedTextField jFmtPrecoCusto;
-    private javax.swing.JFormattedTextField jFmtPrecoVenda;
-    private javax.swing.JLabel jLblCodigo;
-    private javax.swing.JLabel jLblDescricao;
-    private javax.swing.JLabel jLblNome;
-    private javax.swing.JLabel jLblPrecoCusto;
-    private javax.swing.JLabel jLblPrecoVenda;
-    private javax.swing.JLabel jLblQuantidade;
-    private javax.swing.JTextField jTxtCodigo;
-    private javax.swing.JTextField jTxtDescricao;
-    private javax.swing.JTextField jTxtNome;
-    private javax.swing.JTextField jTxtQuantidade;
+    private javax.swing.JButton jBtnGpfAlterar;
+    private javax.swing.JButton jBtnGpfCancelar;
+    private javax.swing.JButton jBtnGpfConfirmar;
+    private javax.swing.JButton jBtnGpfExcluir;
+    private javax.swing.JButton jBtnGpfIncluir;
+    private javax.swing.JButton jBtnGpfPesquisar;
+    private javax.swing.JCheckBox jChbGpfAtivo;
+    private javax.swing.JFormattedTextField jFmtGpfPrecoCusto;
+    private javax.swing.JFormattedTextField jFmtGpfPrecoVenda;
+    private javax.swing.JLabel jLblGpfCodigo;
+    private javax.swing.JLabel jLblGpfDescricao;
+    private javax.swing.JLabel jLblGpfNome;
+    private javax.swing.JLabel jLblGpfPrecoCusto;
+    private javax.swing.JLabel jLblGpfPrecoVenda;
+    private javax.swing.JLabel jLblGpfQuantidade;
+    private javax.swing.JTextField jTxtGpfCodigo;
+    private javax.swing.JTextField jTxtGpfDescricao;
+    private javax.swing.JTextField jTxtGpfNome;
+    private javax.swing.JTextField jTxtGpfQuantidade;
     // End of variables declaration//GEN-END:variables
 
 }
