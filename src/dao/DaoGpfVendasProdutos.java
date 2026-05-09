@@ -24,6 +24,9 @@ public class DaoGpfVendasProdutos extends DaoAbstract {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url, user, password;
+//            url = "jdbc:mysql://10.7.0.51:33062/db_giovani_pesoti";
+//            user = "giovani_feltrin";
+//            password = "giovani_feltrin";
             url = "jdbc:mysql://localhost/db_giovani_pesoti";
             user = "root";
             password = "";
