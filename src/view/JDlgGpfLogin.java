@@ -86,7 +86,7 @@ public class JDlgGpfLogin extends javax.swing.JDialog {
         String usuario = jTxtGpfUsuario.getText();
         String senha = new String(jPwfGpfSenha.getPassword());
 
-        if (usuario.equals("Giovani") && senha.equals("1234")) {
+        if (usuario.equals("Feltrin") && senha.equals("123456")) {
             JFrmGpfPrincipal tela = new JFrmGpfPrincipal();
             tela.setVisible(true);
             this.dispose();
