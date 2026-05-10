@@ -17,6 +17,10 @@ public class JFrmGpfPrincipal extends javax.swing.JFrame {
         initComponents();
         setTitle("Sistema de Artigos Religiosos");
         setExtendedState(MAXIMIZED_BOTH);
+        setAlwaysOnTop(true);
+        setAlwaysOnTop(false);
+        toFront();
+        requestFocus();
     }
 
     /**
