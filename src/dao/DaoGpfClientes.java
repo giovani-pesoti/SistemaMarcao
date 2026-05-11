@@ -24,7 +24,7 @@ public class DaoGpfClientes extends DaoAbstract {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             String url, user, password;
-//            url = "jdbc:mysql://10.7.0.51:33062/db_giovani_pesoti";
+//            url = "jdbc:mysql://10.7.0.51:33062/db_giovani_feltrin";
 //            user = "giovani_feltrin";
 //            password = "giovani_feltrin";
             url = "jdbc:mysql://localhost/db_giovani_pesoti";
@@ -68,13 +68,13 @@ public class DaoGpfClientes extends DaoAbstract {
     }
 
     @Override
-    public void list(int id) {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public Object list(int id) {
+        return null;
     }
 
     @Override
-    public void listAll() {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public Object listAll() {
+        return null;
     }
 
 }
